@@ -461,6 +461,7 @@ public:
     void OnMapChanged(Player* pPlayer);
     void HandleGossipSelectOption(Player* pPlayer, uint32 menuId, uint32 sender, uint32 action, const std::string& code);
     void OnExploreNewArea(Player* pPlayer, uint32 areaId);
+    void OnQuestComplete(Player* pPlayer, Object* pObject, Quest const* pQuest);
 
 #ifndef CLASSIC
 #ifndef TBC
